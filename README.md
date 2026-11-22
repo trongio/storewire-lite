@@ -1,5 +1,7 @@
 # Storewire Lite
 
+[![mcptry](https://mcptry.com/badge/io.github.trongio/storewire-lite)](https://mcptry.com/servers/io.github.trongio/storewire-lite)
+
 Let AI assistants read your Laravel store's catalogue. Storewire Lite adds a read-only
 [Model Context Protocol](https://modelcontextprotocol.io) server to your app, built on the official
 [`laravel/mcp`](https://github.com/laravel/mcp), with two tools:
