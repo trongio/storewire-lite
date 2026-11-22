@@ -14,6 +14,8 @@ catalogue except what a visitor could already see.
 
 Free and MIT licensed.
 
+See the full Storewire running on a demo store: https://demo.plugins.hackerman.ge (point an assistant that supports remote MCP servers at `https://demo.plugins.hackerman.ge/mcp`).
+
 ## Install
 
 ```bash
