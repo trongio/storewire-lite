@@ -1,0 +1,52 @@
+{
+    "name": "hackerman/storewire-lite",
+    "description": "Free, read-only storefront MCP server for Laravel: let AI assistants search your catalogue and read product pages.",
+    "type": "library",
+    "license": "MIT",
+    "keywords": ["laravel", "mcp", "ecommerce", "storefront", "catalog", "model-context-protocol"],
+    "homepage": "https://plugins.hackerman.ge",
+    "authors": [
+        {
+            "name": "Giorgi Kakabadze"
+        }
+    ],
+    "require": {
+        "php": "^8.3",
+        "illuminate/support": "^12.41.1|^13.0",
+        "laravel/mcp": "^1.2"
+    },
+    "require-dev": {
+        "larastan/larastan": "^3.0",
+        "orchestra/testbench": "^10.8|^11.0",
+        "pestphp/pest": "^3.8|^4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Hackerman\\StorewireLite\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Hackerman\\StorewireLite\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Hackerman\\StorewireLite\\StorewireLiteServiceProvider"
+            ]
+        }
+    },
+    "scripts": {
+        "test": "pest",
+        "analyse": "phpstan analyse --memory-limit=1G"
+    },
+    "config": {
+        "sort-packages": true,
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
